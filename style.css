@@ -65,6 +65,11 @@ p {
 	background: #3cb0fd;
 }
 
+input[type="submit"]{
+	background-color: #d84581;
+	display: block;
+}
+
 label {
 	float: left;
 	text-align: right;
