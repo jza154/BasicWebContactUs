@@ -1,5 +1,8 @@
 #!/usr/local/bin/php
 <?php
+
+// all files in this project adapted from https://css-tricks.com/nice-and-simple-contact-form/
+
 $EmailTo = "470cmpt@gmail.com";
 $Subject =  Trim(stripslashes($_POST['Subject'])); 
 $Name = Trim(stripslashes($_POST['Name'])); 
